@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2ebf4f70c391cf50a591770d050131fc" label="Support Case" max_length="40" name="x_1933653_automa_0_support_case" type="collection">
+        <element label="Escalated" max_length="40" name="escalated" type="boolean"/>
+        <element label="Assigned To" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element label="Resolution Notes" max_length="40" name="resolution_notes" type="string"/>
+        <element choice="1" label="Priority" max_length="40" name="priority" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="P3 - Medium" sequence="2" value="p3_medium"/>
+                <element inactive_on_update="false" label="P1 - Critical" sequence="0" value="p1_critical"/>
+                <element inactive_on_update="false" label="P4 - Low" sequence="3" value="p4_low"/>
+                <element inactive_on_update="false" label="P2 - High" sequence="1" value="p2_high"/>
+            </choice>
+        </element>
+        <element label="SLA Due" max_length="40" name="sla_due" type="glide_date_time"/>
+        <element label="Assignment Group" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
+        <element choice="1" label="Channel" max_length="40" name="channel" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Portal" sequence="1" value="portal"/>
+                <element inactive_on_update="false" label="Phone" sequence="3" value="phone"/>
+                <element inactive_on_update="false" label="Email" sequence="0" value="email"/>
+                <element inactive_on_update="false" label="Mobile App" sequence="4" value="mobile_app"/>
+                <element inactive_on_update="false" label="Chat" sequence="2" value="chat"/>
+            </choice>
+        </element>
+        <element label="Workload Score" max_length="40" name="workload_score" type="integer"/>
+        <element choice="1" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="On Hold" sequence="3" value="on_hold"/>
+                <element inactive_on_update="false" label="Assigned" sequence="1" value="assigned"/>
+                <element inactive_on_update="false" label="Resolved" sequence="5" value="resolved"/>
+                <element inactive_on_update="false" label="New" sequence="0" value="new"/>
+                <element inactive_on_update="false" label="Closed" sequence="6" value="closed"/>
+                <element inactive_on_update="false" label="Awaiting Customer" sequence="4" value="awaiting_customer"/>
+                <element inactive_on_update="false" label="In Progress" sequence="2" value="in_progress"/>
+            </choice>
+        </element>
+        <element label="Short Description" max_length="40" name="short_description" type="string"/>
+        <element choice="1" label="Customer Satisfaction" max_length="40" name="customer_satisfaction" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Poor" sequence="3" value="poor"/>
+                <element inactive_on_update="false" label="Good" sequence="1" value="good"/>
+                <element inactive_on_update="false" label="Excellent" sequence="0" value="excellent"/>
+                <element inactive_on_update="false" label="Average" sequence="2" value="average"/>
+            </choice>
+        </element>
+        <element choice="1" label="Product Line" max_length="40" name="product_line" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Audio Devices" sequence="5" value="audio_devices"/>
+                <element inactive_on_update="false" label="Accessories" sequence="3" value="accessories"/>
+                <element inactive_on_update="false" label="Laptop" sequence="1" value="laptop"/>
+                <element inactive_on_update="false" label="Television" sequence="2" value="television"/>
+                <element inactive_on_update="false" label="Mobile" sequence="0" value="mobile"/>
+                <element inactive_on_update="false" label="Smart Home Devices" sequence="4" value="smart_home_devices"/>
+            </choice>
+        </element>
+        <element choice="1" label="Customer Tier" max_length="40" name="customer_tier" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Enterprise" sequence="0" value="enterprise"/>
+                <element inactive_on_update="false" label="Business" sequence="1" value="business"/>
+                <element inactive_on_update="false" label="Consumer" sequence="2" value="consumer"/>
+            </choice>
+        </element>
+        <element label="Description" max_length="40" name="description" type="string"/>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+        <index name="index2">
+            <element name="assignment_group"/>
+        </index>
+    </element>
+</database>
