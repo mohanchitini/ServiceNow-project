@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_visibility">
+    <par_dashboard_visibility action="DELETE">
+        <dashboard display_value="Support Case Dashboard">a22b3be4c3e10fd0a591770d05013177</dashboard>
+        <experience display_value="Platform Analytics">08c73d60537101100834ddeeff7b1287</experience>
+        <sys_class_name>par_dashboard_visibility</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-15 10:20:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e62b3328c3e10fd0a591770d05013127</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Automated Case Assignment &amp;amp; Escalation" source="x_1933653_automa_0">426ec3fcc351cf50a591770d0501318d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Automated Case Assignment &amp;amp; Escalation">426ec3fcc351cf50a591770d0501318d</sys_scope>
+        <sys_update_name>par_dashboard_visibility_e62b3328c3e10fd0a591770d05013127</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-15 10:20:47</sys_updated_on>
+    </par_dashboard_visibility>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Automated Case Assignment &amp;amp; Escalation">426ec3fcc351cf50a591770d0501318d</application>
+        <file_path/>
+        <instance_id>94326510db4ebd5438f11729139619a8</instance_id>
+        <instance_name>dev189739</instance_name>
+        <name>par_dashboard_visibility_e62b3328c3e10fd0a591770d05013127</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_visibility"><par_dashboard_visibility action="INSERT_OR_UPDATE"><dashboard display_value="Support Case Dashboard">a22b3be4c3e10fd0a591770d05013177</dashboard><experience display_value="Platform Analytics">08c73d60537101100834ddeeff7b1287</experience><sys_class_name>par_dashboard_visibility</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-15 10:20:47</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e62b3328c3e10fd0a591770d05013127</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Automated Case Assignment &amp;amp; Escalation" source="x_1933653_automa_0">426ec3fcc351cf50a591770d0501318d</sys_package><sys_policy/><sys_scope display_value="Automated Case Assignment &amp;amp; Escalation">426ec3fcc351cf50a591770d0501318d</sys_scope><sys_update_name>par_dashboard_visibility_e62b3328c3e10fd0a591770d05013127</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-15 10:20:47</sys_updated_on></par_dashboard_visibility></record_update>]]></payload>
+        <payload_hash>1326736978</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>d7a5b432c3d14f90a591770d050131ff</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-15 10:20:47</sys_created_on>
+        <sys_id>aa2b3328c3e10fd0a591770d0501312a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19ecacc4dc80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-15 10:20:47</sys_updated_on>
+        <type>PAR Dashboard Visibility</type>
+        <update_guid>6a2b332881e10fd058bbda291219dd29</update_guid>
+        <update_guid_history>6a2b332881e10fd058bbda291219dd29:1326736978</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">1f1cff68c3e10fd0a591770d0501310e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-15 10:24:56</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_visibility">par_dashboard_visibility</sys_db_object>
+        <sys_id>11f6548252f24ecd82a44a34dd393ed1</sys_id>
+        <sys_metadata>e62b3328c3e10fd0a591770d05013127</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Automated Case Assignment &amp;amp; Escalation" source="x_1933653_automa_0">426ec3fcc351cf50a591770d0501318d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Automated Case Assignment &amp;amp; Escalation">426ec3fcc351cf50a591770d0501318d</sys_scope>
+        <sys_scope_delete display_value="">aadd942ad3bf4e45981d19b8130b8ed9</sys_scope_delete>
+        <sys_update_name>par_dashboard_visibility_e62b3328c3e10fd0a591770d05013127</sys_update_name>
+        <sys_update_version display_value="par_dashboard_visibility_e62b3328c3e10fd0a591770d05013127">aa2b3328c3e10fd0a591770d0501312a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-15 10:24:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

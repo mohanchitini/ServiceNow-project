@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard">
+    <par_dashboard action="DELETE">
+        <active>true</active>
+        <base_dashboard/>
+        <certified>false</certified>
+        <description>Dashboard for Automated Case Assignment &amp; Escalation</description>
+        <experience/>
+        <grid>48</grid>
+        <name>Support Case Dashboard</name>
+        <sys_class_name>par_dashboard</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-15 10:20:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a22b3be4c3e10fd0a591770d05013177</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Support Case Dashboard</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Automated Case Assignment &amp;amp; Escalation" source="x_1933653_automa_0">426ec3fcc351cf50a591770d0501318d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Automated Case Assignment &amp;amp; Escalation">426ec3fcc351cf50a591770d0501318d</sys_scope>
+        <sys_update_name>par_dashboard_a22b3be4c3e10fd0a591770d05013177</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-15 10:20:47</sys_updated_on>
+        <sys_ux_app_config/>
+        <sys_ux_app_route/>
+        <sys_ux_macroponent/>
+        <sys_ux_screen/>
+        <sys_ux_screen_type/>
+    </par_dashboard>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Automated Case Assignment &amp;amp; Escalation">426ec3fcc351cf50a591770d0501318d</application>
+        <file_path/>
+        <instance_id>94326510db4ebd5438f11729139619a8</instance_id>
+        <instance_name>dev189739</instance_name>
+        <name>par_dashboard_a22b3be4c3e10fd0a591770d05013177</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard"><par_dashboard action="INSERT_OR_UPDATE"><active>true</active><base_dashboard/><certified>false</certified><description>Dashboard for Automated Case Assignment &amp; Escalation</description><experience/><grid>48</grid><name>Support Case Dashboard</name><sys_class_name>par_dashboard</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-15 10:20:47</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a22b3be4c3e10fd0a591770d05013177</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Support Case Dashboard</sys_name><sys_overrides/><sys_package display_value="Automated Case Assignment &amp;amp; Escalation" source="x_1933653_automa_0">426ec3fcc351cf50a591770d0501318d</sys_package><sys_policy/><sys_scope display_value="Automated Case Assignment &amp;amp; Escalation">426ec3fcc351cf50a591770d0501318d</sys_scope><sys_update_name>par_dashboard_a22b3be4c3e10fd0a591770d05013177</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-15 10:20:47</sys_updated_on><sys_ux_app_config/><sys_ux_app_route/><sys_ux_macroponent/><sys_ux_screen/><sys_ux_screen_type/></par_dashboard></record_update>]]></payload>
+        <payload_hash>-1398877676</payload_hash>
+        <record_name>Support Case Dashboard</record_name>
+        <reverted_from/>
+        <source>d7a5b432c3d14f90a591770d050131ff</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-15 10:20:47</sys_created_on>
+        <sys_id>662b3be4c3e10fd0a591770d0501317a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19ecacc4cc90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-15 10:20:47</sys_updated_on>
+        <type>PAR Dashboard</type>
+        <update_guid>262b3be447e10fd0bcd64114cf522979</update_guid>
+        <update_guid_history>262b3be447e10fd0bcd64114cf522979:-1398877676</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Support Case Dashboard">431cbf68c3e10fd0a591770d050131a5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-15 10:24:56</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard">par_dashboard</sys_db_object>
+        <sys_id>2b2e204831994154a36b014c89b366e4</sys_id>
+        <sys_metadata>a22b3be4c3e10fd0a591770d05013177</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Support Case Dashboard</sys_name>
+        <sys_package display_value="Automated Case Assignment &amp;amp; Escalation" source="x_1933653_automa_0">426ec3fcc351cf50a591770d0501318d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Automated Case Assignment &amp;amp; Escalation">426ec3fcc351cf50a591770d0501318d</sys_scope>
+        <sys_scope_delete display_value="">aadd942ad3bf4e45981d19b8130b8ed9</sys_scope_delete>
+        <sys_update_name>par_dashboard_a22b3be4c3e10fd0a591770d05013177</sys_update_name>
+        <sys_update_version display_value="par_dashboard_a22b3be4c3e10fd0a591770d05013177">662b3be4c3e10fd0a591770d0501317a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-15 10:24:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
