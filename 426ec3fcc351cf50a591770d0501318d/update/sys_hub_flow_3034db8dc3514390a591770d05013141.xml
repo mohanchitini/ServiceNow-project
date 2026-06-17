@@ -15,7 +15,7 @@
         <flow_priority/>
         <generation_source/>
         <internal_name>auto_close_case</internal_name>
-        <label_cache>[{"name":"Created_1.current.state","label":"Trigger - Record Created➛ Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"x_1933653_automa_0_support_case","column_name":"state","choices":[{"label":"-- None --","image":"","used":false,"rawLabel":"-- None --","selected":false,"missing":false,"reference":false,"value":"-- None --"},{"label":"New","image":"","used":false,"rawLabel":"New","selected":false,"missing":false,"reference":false,"value":"new","parameters":{"name":"x_1933653_automa_0_support_case","dependent_values":[""]}},{"label":"Assigned","image":"","used":false,"rawLabel":"Assigned","selected":false,"missing":false,"reference":false,"value":"assigned","parameters":{"name":"x_1933653_automa_0_support_case","dependent_values":[""]}},{"label":"In Progress","image":"","used":false,"rawLabel":"In Progress","selected":false,"missing":false,"reference":false,"value":"in_progress","parameters":{"name":"x_1933653_automa_0_support_case","dependent_values":[""]}},{"label":"On Hold","image":"","used":false,"rawLabel":"On Hold","selected":false,"missing":false,"reference":false,"value":"on_hold","parameters":{"name":"x_1933653_automa_0_support_case","dependent_values":[""]}},{"label":"Awaiting Customer","image":"","used":false,"rawLabel":"Awaiting Customer","selected":false,"missing":false,"reference":false,"value":"awaiting_customer","parameters":{"name":"x_1933653_automa_0_support_case","dependent_values":[""]}},{"label":"Resolved","image":"","used":false,"rawLabel":"Resolved","selected":false,"missing":false,"reference":false,"value":"resolved","parameters":{"name":"x_1933653_automa_0_support_case","dependent_values":[""]}},{"label":"Closed","image":"","used":false,"rawLabel":"Closed","selected":false,"missing":false,"reference":false,"value":"closed","parameters":{"name":"x_1933653_automa_0_support_case","dependent_values":[""]}}],"usedInstances":{"e4da7844-de74-4173-b8b2-edd45ca1b2cd":["condition"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛ Record","reference":"x_1933653_automa_0_support_case","reference_display":"Support Case","type":"reference","base_type":"reference","usedInstances":{"5b51159b-72b4-4cdc-a9df-d32bfc9428ae":["record"],"7441a4c0-2864-44fe-b542-af8eaff1499f":["record"]},"attributes":{}},{"name":"Created_1.current.sys_updated_by","label":"Trigger - Record Created➛ Record➛Updated by","reference":"","reference_display":"Updated by","type":"string","base_type":"string","parent_table_name":"x_1933653_automa_0_support_case","column_name":"sys_updated_by","usedInstances":{"5b51159b-72b4-4cdc-a9df-d32bfc9428ae":["record"],"55e4c7e5-7241-4ea2-aa10-6bc66178a1a5":["condition"],"3c1ab911-3994-4fa0-94de-718628ce354f":["condition"]}},{"name":"Created_1.current.sys_updated_on","label":"Trigger - Record Created➛ Record➛Updated","reference":"","reference_display":"Updated","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_1933653_automa_0_support_case","column_name":"sys_updated_on","usedInstances":{}}]</label_cache>
+        <label_cache>[{"name":"Created_1.current.sys_updated_on","label":"Trigger - Record Created➛ Record➛Updated","reference":"","reference_display":"Updated","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_1933653_automa_0_support_case","column_name":"sys_updated_on","choices":null,"usedInstances":{},"attributes":null},{"name":"Created_1.current.state","label":"Trigger - Record Created➛ Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"x_1933653_automa_0_support_case","column_name":"state","choices":[{"label":"-- None --","image":"","used":false,"rawLabel":"-- None --","selected":false,"missing":false,"reference":false,"value":"-- None --"},{"label":"New","image":"","used":false,"rawLabel":"New","selected":false,"missing":false,"reference":false,"value":"new","parameters":{"name":"x_1933653_automa_0_support_case","dependent_values":[""]}},{"label":"Assigned","image":"","used":false,"rawLabel":"Assigned","selected":false,"missing":false,"reference":false,"value":"assigned","parameters":{"name":"x_1933653_automa_0_support_case","dependent_values":[""]}},{"label":"In Progress","image":"","used":false,"rawLabel":"In Progress","selected":false,"missing":false,"reference":false,"value":"in_progress","parameters":{"name":"x_1933653_automa_0_support_case","dependent_values":[""]}},{"label":"On Hold","image":"","used":false,"rawLabel":"On Hold","selected":false,"missing":false,"reference":false,"value":"on_hold","parameters":{"name":"x_1933653_automa_0_support_case","dependent_values":[""]}},{"label":"Awaiting Customer","image":"","used":false,"rawLabel":"Awaiting Customer","selected":false,"missing":false,"reference":false,"value":"awaiting_customer","parameters":{"name":"x_1933653_automa_0_support_case","dependent_values":[""]}},{"label":"Resolved","image":"","used":false,"rawLabel":"Resolved","selected":false,"missing":false,"reference":false,"value":"resolved","parameters":{"name":"x_1933653_automa_0_support_case","dependent_values":[""]}},{"label":"Closed","image":"","used":false,"rawLabel":"Closed","selected":false,"missing":false,"reference":false,"value":"closed","parameters":{"name":"x_1933653_automa_0_support_case","dependent_values":[""]}}],"usedInstances":{"e4da7844-de74-4173-b8b2-edd45ca1b2cd":["condition"]},"attributes":null},{"name":"Updated_1.current.current","label":"Trigger - Record Updated➛Record","reference":null,"reference_display":null,"type":"reference","base_type":"reference","parent_table_name":null,"column_name":null,"choices":[{"label":null,"value":null,"order":0.0}],"usedInstances":{"e4da7844-de74-4173-b8b2-edd45ca1b2cd":["condition"],"7441a4c0-2864-44fe-b542-af8eaff1499f":["record"]},"attributes":{"":""}},{"name":"Created_1.current","label":"Trigger - Record Created➛ Record","reference":"x_1933653_automa_0_support_case","reference_display":"Support Case","type":"reference","base_type":"reference","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{"5b51159b-72b4-4cdc-a9df-d32bfc9428ae":["record"],"7441a4c0-2864-44fe-b542-af8eaff1499f":["record"]},"attributes":{}},{"name":"Created_1.current.sys_updated_by","label":"Trigger - Record Created➛ Record➛Updated by","reference":"","reference_display":"Updated by","type":"string","base_type":"string","parent_table_name":"x_1933653_automa_0_support_case","column_name":"sys_updated_by","choices":null,"usedInstances":{"55e4c7e5-7241-4ea2-aa10-6bc66178a1a5":["condition"],"3c1ab911-3994-4fa0-94de-718628ce354f":["condition"],"e4da7844-de74-4173-b8b2-edd45ca1b2cd":["condition"],"5b51159b-72b4-4cdc-a9df-d32bfc9428ae":["record"]},"attributes":null}]</label_cache>
         <master_snapshot>99781bc5c3914390a591770d050131f7</master_snapshot>
         <master_snapshot_digest/>
         <name>Auto Close Case</name>
@@ -28,7 +28,7 @@
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
-        <status>published</status>
+        <status>draft</status>
         <substatus/>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -36,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3034db8dc3514390a591770d05013141</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>33</sys_mod_count>
         <sys_name>Auto Close Case</sys_name>
         <sys_overrides/>
         <sys_package display_value="Automated Case Assignment &amp;amp; Escalation" source="x_1933653_automa_0">426ec3fcc351cf50a591770d0501318d</sys_package>
@@ -44,11 +44,11 @@
         <sys_scope display_value="Automated Case Assignment &amp;amp; Escalation">426ec3fcc351cf50a591770d0501318d</sys_scope>
         <sys_update_name>sys_hub_flow_3034db8dc3514390a591770d05013141</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-04 10:50:30</sys_updated_on>
+        <sys_updated_on>2026-06-16 09:27:03</sys_updated_on>
         <type>flow</type>
         <updation_source/>
         <version>2</version>
-        <version_record>f5785bc5c3914390a591770d050131c9</version_record>
+        <version_record>d7687089c3698fd0a591770d05013127</version_record>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=3034db8dc3514390a591770d05013141"/>
     <sys_variable_value action="delete_multiple" query="document_key=3034db8dc3514390a591770d05013141"/>
@@ -279,26 +279,26 @@
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b834db8dc3514390a591770d05013158"/>
     <sys_hub_flow_output action="delete_multiple" query="model=3034db8dc3514390a591770d05013141"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=3034db8dc3514390a591770d05013141"/>
-    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=3034db8dc3514390a591770d05013141^sys_idNOT INf434db8dc3514390a591770d0501317e"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=3034db8dc3514390a591770d05013141^sys_idNOT IN4be57045c3698fd0a591770d05013129"/>
     <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
         <comment/>
         <display_text/>
         <flow display_value="Auto Close Case">3034db8dc3514390a591770d05013141</flow>
         <generation_source/>
-        <name>Created</name>
+        <name>Updated</name>
         <published_version/>
         <remote_sys_id/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-06-04 10:31:49</sys_created_on>
-        <sys_id>f434db8dc3514390a591770d0501317e</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_created_on>2026-06-16 09:15:58</sys_created_on>
+        <sys_id>4be57045c3698fd0a591770d05013129</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-04 10:50:25</sys_updated_on>
-        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
-        <trigger_inputs>H4sIAAAAAAAA/+VY2W7jNhT9FUFPLZACkmVbVt6mTooGSDOt42kfgpSgKNIWKpOuRCnxDPLvvdQWWYvjJenYyYsBkfTlPYfnLuTdN12G/mxGwyseScwJvV1FV55+ruOhg8lw5Nh23zJM07BMarkWGfbdAXYcbOlneoBdGsDSKXYDCt8+lzTkOJiulhSGpRpGHC/U3AJzD0sRrvRzGcb0TGehWEzpYhlgCYsZDiIYFKFHQ/3cPNPTv+U24O8JDmL1/YhMx7KGAwvhWIoFRgaK4uVShBIRHKmVnh+BzdWf+R9gZIlDMCaV4W86mfuBF1Kun9/dn+kSPEVrMLSbzF9fcUAYwU6PGsQyrV7PMHqjvukOLdfseRamhtHCQc1v2ULFM0j6KCn3qFfib7AUUux95sGqXDEHkjNYC/wY+V/B+shQ6xgFVCSHXH6inI5smMyFT+jnpfQFz0YyP7NJEcQLfpP5r4ikDMeBrBAZR2CPLpXLyoncI3Y7Fw+TYsNffJ6iyycDQXBQfmEJYnNjSSN1FMwP4FBQxk0k4jD1fnI5/jy5QH99mo5/vZygyeXtdHI1nl5e6E8pLvRvrCxmHua+oAwOLIhI6C/lJyL9pFDV09lraHwsuOenvDV0ToqpqOpTRQSVUy042yR+wyhlRCq7FiHw9+UfTZlng9sqfVz1OFX6cIixR3GH0l3WwUSLm7KFlCqyTZrPR7YRfd8wvpPs8/S1r+oXwqPBRVUlmTaRz5exVGw9YC4jJAXCnocqPKql4NNLYZBhe8tYCGMOW6HyJJsRkRJeMn/tRwD0DiK+YDV1BubZdW5yEnNNwJHDj0biEEiVWhE+7GqBZ/lZsN8Liadk5vpLcIjQAkWrCM1jF60ximxn5JjDLmnbZI3BNMjA9J2u3z+pU6YBJbKiVvYlqn795keRz2cVekuM6WE1IJboQPVawWAGNTotrPeHJLamhJKaNGoJbpNAtk57hSzTlGeajLmU9QxbMQWCd5lp2MYAM88yDNLbKPhOGLIWAW+S+nZLfFEae8EWkVY/g8J5petgFxkn6zGQ2+kpzeT5dXyErtXqhLVToSh1mw1fbC/fV26rsJeovO5tWy/evFSwQDxAftqjTLiY/DMLRcy9eiJVNjWfa88rtB9y5n88rTRaLRlMhHQz3vUVp4Py4GLxLKIigDFfNctENrhfQbCY6Tq0Tw2oAxaUAHfgOC7BPcbsoU17ZqesW908iULwQhglbXHYlXlbJZq0KXuHcvD9HTyoKOQabS0J2dx7T/4Pc8oRgAxRoNJ7owbMAt+jxdxhKaKxVfJ8h9v/Veg6d1thZyOHDEzbJjZkS8gQrE9dbPZ7gNweWqPBS9g3OStb+Phf7s2qOChHOrLHl2zquJ6OjlPmEZVS1bzdGx0Ol4j0Pzhzr1L91YFqafoSoXYj+E9Xz+u0WwpVNn12OaFeoNrxbANaKVB7V6hdIeeNDg+Q/gzja0jVFabjzD/aa0EtwpJ1KlteC/YhdM+XBNofDRxmtZcF5mzOFd0Yj76F3DI3JZ1Zrq1V2zb2k9YUUrZu9eZvDzXUNJabtl5oWz8uKQe1ykUgdz6f7OPsh2g70i7ykN5DeUuRYNWSdCE0mNBgE81nWu4t9TR3pck5hcMI4DYFG2pq9xOrRdVS3ERehtq7xp3dPhsdCAxr+WXghIC9TnNRi6ON70wtfO3XO1DPxoOB1XGldOqPTm2OvoDj6LuInVNN0pa5NlbN3ezWbbbWzcrJrytlyzbhHaN+syezFi+OtMLf/wc1nhrBWSUAAA==</trigger_inputs>
+        <sys_updated_on>2026-06-16 09:15:58</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs>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</trigger_inputs>
         <trigger_outputs/>
-        <trigger_type>record_create</trigger_type>
+        <trigger_type>record_update</trigger_type>
         <updation_source/>
     </sys_hub_trigger_instance_v2>
     <sys_hub_action_instance_v2 action="delete_multiple" query="flow=3034db8dc3514390a591770d05013141^sys_idNOT IN7fd75785c3914390a591770d050131e5"/>
@@ -317,13 +317,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-06-04 10:47:51</sys_created_on>
         <sys_id>7fd75785c3914390a591770d050131e5</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Automated Case Assignment &amp;amp; Escalation">426ec3fcc351cf50a591770d0501318d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-04 10:52:55</sys_updated_on>
+        <sys_updated_on>2026-06-16 09:26:53</sys_updated_on>
         <ui_id>7441a4c0-2864-44fe-b542-af8eaff1499f</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/+VVXU/bMBT9K8jPVZU0UEHfJiqkSQwkmHhhw7q1b4o1J878AXRV//uuY6dUgBiT2ANa3nw/7HNO7rGv10xJNmP7KIvyqJyKqqyqSVFMDvfLxbRalBNZAWLJRqyFBqnSojBW0voOdIiB9frYIniUvByLYC22frOhvFSu07C6ymUUEbdKS8qz2fX3EevA0o4eLZutn6TeCknDAjWVXgyYnmL0qy6upRGhIVxcDcHT3DnPmb3Pc8pQU4RTFiOGDx5biQSkBu1wxBpoJXhjV2zmbaAAkZbnrV5tK25V6xPRBh6c+kUn7xexrkZiJrII2yXPAqVwPQcPl7Sz8MFu9TJKoEuaSKwhaH+8G0sF551Xpk0tHhZ66DY6NO1ZUoRtN9j5H8ERCOwiz4g80aovb839xQDyRLW9JJmiNgL0dgXeW7UIPsJZM9TYa9xA16l2yTtr7lTfTFCa8VLTYlxrc09nOrVsxyAi7jGpCuMTis/78BVYFUl8oW2oeTNibuWONTj3SIU05D9DRJKIZQq8V6GXgPeTEJuFVZ3/REfdYQa+GeWhXxy8NmHi6HGgdvZ8HPwHXh5V1fSg4hC8aYAX3IWuM9ZzAQ7fwQJvADhY4Gv/418GnF3wLHa627t3lhLZAwfv5oHDj+SBTOPDm+BPo19MXr1cdyapn3a3M/bO02X/LRRFJYU2DuXNvbE/tAHJHV27OVXcoCOZ4ruQAv35NyI4sgpa7sArVyf2qWBpjHzumX982t/58Q2qDX48Uaile0HGwYzYdBEvT7I+MWRO7l3l5PZhejdXltOi/z6QN/+b9+n7b1BnESaWCQAA</values>
+        <values>H4sIAAAAAAAA/+1VXU/bMBT9K5Wfq8ppmkL7NlEhTWIgAeKFQXRr31BLTpzZDtAh/vuuE6etOoZg4mFI61N97kfOub5Hvn5iSrI542PJk1kyFWmSpmPOx4eTZDlNl8lYpoCIbMgqKJEy70E36Ojc/iHAefD4veE8lUIbh/IWnQBNoOzQArQLDaRytYb11XvrxEppabFi8+ubIavBEhGPls2f9kJvVaJhiZpSjxVq6V6Q5td1OHss68An76R2+EksvozBwVUMGisDqYTzIcNHj5VE4tOKGLISKgne2DWbe9sQYBHkWaXXm4yVqjy1ZSH30amfRCCZ8vYXsgskmQK7jM0xjzPt4GIBHi6ov/CNjaliZZQgUe2AJBbQaH+0i3UJZ7VXpupKPCx1X210U1an3XjYpkF/hYQ0jkhgHdQG/p244mJlHs57kseqaicThWpDt7w5gfdWLRsf6Dwx1FhSn7yEulbVXV5bc6/aYqJSju40HUaFNg/0TafuqhGIwHtEs4XRMeGLFr4Cq4KIb9SGip+HzK3dkQbntlJohvmPJjDphEUJeTuFdgR5uxahWFhV+y/0qXuMxJ+H0TgTfHXdku12WRS0IjvGEePJuACRiTSTPJ1xyGbJwQGXPONJSj1/t8y7zfAGdr0Zznt6+3SjGaQRTXs3Su45YREjg6+LXRt8lAsm//f/H97/ZfbahonZdqF2em498JgnszSdZmkOjTcl5Dx3TV0b63MBL70aF110cAR/8Ta8gWxvh8t2CV4m3z8P+9jJbu3gtAtEP2Qf5ofDz+SHKOPTG+JPNrj5BWYJMzJBCQAA</values>
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=7fd75785c3914390a591770d050131e5"/>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=3034db8dc3514390a591770d05013141"/>
@@ -346,13 +346,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-06-04 10:46:42</sys_created_on>
         <sys_id>c3971f45c3914390a591770d050131c0</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Automated Case Assignment &amp;amp; Escalation">426ec3fcc351cf50a591770d0501318d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-04 10:50:25</sys_updated_on>
+        <sys_updated_on>2026-06-16 09:19:28</sys_updated_on>
         <ui_id>e4da7844-de74-4173-b8b2-edd45ca1b2cd</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/+1Uy27bMBD8lYJnQdAjMhrfghQBCrQN0AS5tIGwIlc2UYpUScqOa/jfu9TDNhoHdYMcexOH3N2Z4VBbZjrfdt7dmyvn5EKz+bfHiEkdMPreMinYnNUJ1OklT3mezfIsSbL3F2k1y6s0Ezkg5CxiGhqkk9xoIb00uuyBiK1AdWGDPoV0rYLNwwHhS6mExXFqC5ZqPFo23/6x5TctlgoqVFR4563UCyo/l9tUeD2Re/epR15mHeYR7qZJxopAK00ihk8etUAaXYNyGLEGtABv7GaPWARxq9UBWErtB8UNPDn5i3pnRREO1kga+WjHflmOVk0uGcnxtg0EB8RDpSYLjeoa/WXQEUzGGjrlj0zuHPXDNpAOLEZK9d3SrL9OA2+k7gWOm8pwUPsVeLKh6jy6cDGosKFGZQNtS+aUrTUr2RcTlyZeKFrEtTJrGhoSFQMPxGPyCOIbwj/08ANYGVR8pjZUPNCswEle9umjdt6ShF1vS/mzC4QGgaOUcnCDDjhuZeuvaM4KR9a7aIzuJRR1kSbF6XhczE6E4Ci12+01XaZHUaYx7yx55WPnCdjtvndJklNCnVErSsOzeP9L6Vu8gzOEPnsHp8W/EP7sL+EP13Vm9pMk+R/+4/BLVw4hHrX1w1+d/ccQ4GGCG3IjkEtHRO4D9nH6u4eNDQVA8mNobeyPIOGA7X4DnTvucCcGAAA=</values>
+        <values>H4sIAAAAAAAA/+1VXW/TMBT9K8jPUZQ0a8X6NnWahARM2sZeYIpubKe1cOzgj3Yh6n/nOl+tWBEd8MhT6nM/fM7NuWlLtHe1d/ZBX1kr1oosPz9FRKiA4e+WCEaW5BLm5TxN5jSbLbJZkszeXqTFIivSGcuAXyxIRBRUHDOpVkw4oRVCW5A+YG37qWbgOMvTmHpjuHLjc7//4pMkY3fcarnlDKuYsLWE5vGPiulGSIaxXkYNBlk5bsiy/Sl0riwJBZeYujrSdUKqa+oAWWeEWg/n90Pp/QhqwwKVWRIR/uy4Ykh5WYK0PCIVKFSpTUOWzngEDAd2q2QzZWyEctiNhNxnK77z0ClJQmbJURflfXQ65sMke7i8BgdIxVPnzZBKN1pQbvuJMF6Cl251jPUJt3WnsitxUMixWktfqY/9MMjUYHxxiHiLJHgdlAbug5DyfqN3dyPLG6G6qQxBqSnI6QQOZ1d4F/i0hEteYaO8grrGiea10VvRFSOXKl5LPMSl1Du8NHg5BhqIxzhYiG8Qv+7gRzAiqPiAbbAYvWBzS42oR23d5WQfEdvYlQRrDxpxuPk3Hxj2igdteT+eUNI1usKLt3yQsY+GLSoTKNNLmp62G2QnrJV3wGGVXu7Hq01/BosXpn/Te/nX/F7j//Q3/h+QsxZgPv/v/7/2f6BZgBU077772C58gv7hAjwFA/eXTsOmwiK3h4C9G/9tQqBBRwl6DO20+RpUHbD9DyYI+KW3BgAA</values>
         <workflow_reference/>
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=3034db8dc3514390a591770d05013141"/>
