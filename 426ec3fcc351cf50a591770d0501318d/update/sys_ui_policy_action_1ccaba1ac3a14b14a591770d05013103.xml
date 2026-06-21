@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>false</disabled>
+        <field>resolution_notes</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-20 16:11:19</sys_created_on>
+        <sys_id>1ccaba1ac3a14b14a591770d05013103</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>resolution_notes</sys_name>
+        <sys_package display_value="Automated Case Assignment &amp;amp; Escalation" source="x_1933653_automa_0">426ec3fcc351cf50a591770d0501318d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Automated Case Assignment &amp;amp; Escalation">426ec3fcc351cf50a591770d0501318d</sys_scope>
+        <sys_update_name>sys_ui_policy_action_1ccaba1ac3a14b14a591770d05013103</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-20 16:11:19</sys_updated_on>
+        <table>x_1933653_automa_0_support_case</table>
+        <ui_policy display_value="Resolution Notes Mandatory When Resolved">9bc572dec3614b14a591770d05013147</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=1ccaba1ac3a14b14a591770d05013103"/>
+</record_update>

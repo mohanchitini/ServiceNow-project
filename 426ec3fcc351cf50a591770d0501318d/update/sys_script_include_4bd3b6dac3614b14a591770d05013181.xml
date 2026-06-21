@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1933653_automa_0.CaseUtility</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Reusable utility functions for Support Case Management.</description>
+        <mobile_callable>false</mobile_callable>
+        <name>CaseUtility</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var CaseUtility = Class.create();
+CaseUtility.prototype = {
+    
+    initialize: function() {
+    },
+
+    getPriorityMessage: function(priority) {
+
+        if (priority == 'p1_critical')
+            return 'Critical Case';
+
+        if (priority == 'p2_high')
+            return 'High Priority Case';
+
+        if (priority == 'p3_medium')
+            return 'Medium Priority Case';
+
+        return 'Low Priority Case';
+    },
+
+    type: 'CaseUtility'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-20 15:41:56</sys_created_on>
+        <sys_id>4bd3b6dac3614b14a591770d05013181</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CaseUtility</sys_name>
+        <sys_package display_value="Automated Case Assignment &amp;amp; Escalation" source="x_1933653_automa_0">426ec3fcc351cf50a591770d0501318d</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Automated Case Assignment &amp;amp; Escalation">426ec3fcc351cf50a591770d0501318d</sys_scope>
+        <sys_update_name>sys_script_include_4bd3b6dac3614b14a591770d05013181</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-20 15:41:56</sys_updated_on>
+    </sys_script_include>
+</record_update>
