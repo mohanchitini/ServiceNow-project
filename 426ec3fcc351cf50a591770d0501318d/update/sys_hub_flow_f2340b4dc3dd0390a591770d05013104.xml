@@ -84,6 +84,7 @@
         <active>true</active>
         <data>{"run_on_extended":"false","run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any"}</data>
         <identifier>f2340b4dc3dd0390a591770d05013104</identifier>
+        <identifier_type/>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-06-04 09:49:26</sys_created_on>
